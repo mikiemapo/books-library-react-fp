@@ -33,7 +33,7 @@ const EventExamples = () => {
   };
 
   const handleButtonClick = () => {
-    alert("handle button click");
+    alert("handl button click");
   };
 
   return (
