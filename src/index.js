@@ -58,12 +58,17 @@ const EventExamples = () => {
   );
 };
 
+
 const Book = (props) => {
   const { Img, Title, Author } = props;
+  const displayTitle =() => {
+    console.log(Title)
+  }
   return (
     <article className="book">
       <img src={Img} alt={Title} />
       <h2>{Title}</h2>
+      <button onClick={displayTitle}>display title</button>
       <h4>{Author}</h4>
 
       {console.log(props)}
